@@ -40,7 +40,7 @@ const Login = () => {
             password: password,
         };
         await axios
-            .post("http://todo.de-code.uz/api/login", data)
+            .post("https://todo.de-code.uz/api/login", data)
             .then((res) => {
                 setLocalStorage(`todo-token`, res.data.payload.token);
                 setLoading(false);

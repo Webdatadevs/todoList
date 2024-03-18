@@ -44,7 +44,7 @@ const Register = () => {
             name: userName,
         };
         await axios
-            .post("http://todo.de-code.uz/api/register", data)
+            .post("https://todo.de-code.uz/api/register", data)
             .then((res) => {
                 setLocalStorage(`todo-token`, res.data.payload.token);
                 setLoading(false);
