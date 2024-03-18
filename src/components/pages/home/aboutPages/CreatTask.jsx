@@ -31,7 +31,6 @@ const CreatTask = () => {
             .then((res) => res.json())
             .then((data) => {
                 // getCategoriesData(dispatch);
-                console.log(data);
                 setTitle("");
                 setLoadingCreat(false);
                 // setDescription("");

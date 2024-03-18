@@ -49,7 +49,7 @@ const Register = () => {
                 setLocalStorage(`todo-token`, res.data.payload.token);
                 setLoading(false);
                 getHomePage();
-                console.log(res);
+                
             })
             .catch((err) => {
                 setLoading(false);

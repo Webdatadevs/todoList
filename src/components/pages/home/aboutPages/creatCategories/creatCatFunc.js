@@ -9,7 +9,6 @@ const getCategoriesData = (dispatch) => {
         .then((res) => res.json())
         .then((data) => {
             dispatch(getCategories(data));
-            console.log(data)
         });
 };
 

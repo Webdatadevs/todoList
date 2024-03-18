@@ -11,7 +11,6 @@ const getData = (dispatch) => {
         .then((data) => {
             getCategoriesData(dispatch);
             dispatch(getTask(data.payload));
-            console.log(data);
         });
 };
 
