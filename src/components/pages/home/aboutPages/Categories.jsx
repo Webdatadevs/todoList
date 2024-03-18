@@ -26,7 +26,7 @@ const Categories = () => {
 
     const deleteCategories = (id) => {
         setIdEl(id)
-        fetch(`http://todo.de-code.uz/api/categories/${id}`, {
+        fetch(`https://todo.de-code.uz/api/categories/${id}`, {
             method: "DELETE",
             headers: headers(),
         })

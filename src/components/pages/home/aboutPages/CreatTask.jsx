@@ -20,7 +20,7 @@ const CreatTask = () => {
             description: description,
         };
 
-        await fetch("http://todo.de-code.uz/api/tasks", {
+        await fetch("https://todo.de-code.uz/api/tasks", {
             method: "POST",
             headers: {
                 "content-type": "application/json",

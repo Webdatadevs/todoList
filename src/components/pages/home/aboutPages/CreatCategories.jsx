@@ -14,7 +14,7 @@ const CreatCategories = () => {
         let data = {
             name: inputValue,
         };
-        fetch("http://todo.de-code.uz/api/categories", {
+        fetch("https://todo.de-code.uz/api/categories", {
             method: "POST",
             headers: {
                 "content-type": "application/json",

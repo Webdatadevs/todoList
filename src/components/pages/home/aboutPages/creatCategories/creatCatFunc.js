@@ -2,7 +2,7 @@ import { getCategories } from "../../../../../store/todoSlice";
 import headers from "../../../../config/authHeaderBearer";
 
 const getCategoriesData = (dispatch) => {
-    fetch("http://todo.de-code.uz/api/categories", {
+    fetch("https://todo.de-code.uz/api/categories", {
         method: "GET",
         headers: headers(),
     })

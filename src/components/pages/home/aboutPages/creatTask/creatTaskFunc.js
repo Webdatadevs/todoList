@@ -3,7 +3,7 @@ import headers from "../../../../config/authHeaderBearer";
 import getCategoriesData from "../creatCategories/creatCatFunc";
 
 const getData = (dispatch) => {
-    fetch("http://todo.de-code.uz/api/tasks", {
+    fetch("https://todo.de-code.uz/api/tasks", {
         method: "GET",
         headers: headers(),
     })

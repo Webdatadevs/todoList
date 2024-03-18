@@ -24,7 +24,7 @@ const Task = () => {
     // };
 
     const deleteTask = (id) => {
-        fetch(`http://todo.de-code.uz/api/tasks/${id}`, {
+        fetch(`https://todo.de-code.uz/api/tasks/${id}`, {
             method: 'DELETE',
             headers: headers(),
         })
