@@ -10,18 +10,6 @@ import getData from "./creatTask/creatTaskFunc";
 const Task = () => {
     const { task } = useSelector((state) => state.task);
     const dispatch = useDispatch();
-    // const getData = () => {
-    //     fetch("http://todo.de-code.uz/api/tasks", {
-    //         method: "GET",
-    //         headers: headers(),
-    //     })
-    //         .then((res) => res.json())
-    //         .then((data) => {
-    //             dispatch(getTask(data.payload));
-    //             console.log(data);
-    //             console.log(task);
-    //         });
-    // };
 
     const deleteTask = (id) => {
         fetch(`https://todo.de-code.uz/api/tasks/${id}`, {

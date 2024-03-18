@@ -13,16 +13,6 @@ const Categories = () => {
     const { categories } = useSelector((state) => state.categories);
     const [idEl, setIdEl] = useState()
     const dispatch = useDispatch();
-    // const getCategoriesData = () => {
-    //     fetch("http://todo.de-code.uz/api/categories", {
-    //         method: "GET",
-    //         headers: headers(),
-    //     })
-    //         .then((res) => res.json())
-    //         .then((data) => {
-    //             dispatch(getCategories(data));
-    //         });
-    // };
 
     const deleteCategories = (id) => {
         setIdEl(id)

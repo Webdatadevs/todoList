@@ -30,17 +30,12 @@ const CreatTask = () => {
         })
             .then((res) => res.json())
             .then((data) => {
-                // getCategoriesData(dispatch);
                 setTitle("");
                 setLoadingCreat(false);
-                // setDescription("");
-                // setCategoriesId("");
             })
             .catch((err) => {
                 setLoadingCreat(false);
             });
-
-        // console.log(categoriesId);
     }
 
     useEffect(() => {

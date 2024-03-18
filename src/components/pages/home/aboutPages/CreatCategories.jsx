@@ -24,7 +24,6 @@ const CreatCategories = () => {
         })
             .then((res) => res.json())
             .then((data) => {
-                // console.log(data)
                 setLoadingCreat(false);
             });
         setInputValue("");
